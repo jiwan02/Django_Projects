@@ -1,0 +1,31 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# SQLite database
+db.sqlite3
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+
+# Editor folders
+.vscode/
+.idea/
+
+# Environment files
+*.env
+.env
+
+# Django static (optional)
+staticfiles/
+
+# Logs
+*.log
+
+# Migrations (optional)
+*/migrations/*.py
+!*/migrations/__init__.py
+*/migrations/*.pyc
